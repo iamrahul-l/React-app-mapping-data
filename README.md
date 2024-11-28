@@ -2,6 +2,8 @@
 
 ## Code Analysis and Explanations
 
+## Live view: https://react-app-mapping-data.onrender.com/ (Server wakeup time 5 min)
+
 ### 1. src/App.jsx
 ```javascript
 import React from "react";
