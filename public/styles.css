@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #555472;
+    font-family: 'Poppins', Times, serif;
+}
+
+.heading1 {
+    color: #eae301;
+    text-align: center;
+    padding: 20px 0;
+    font-size: 4rem;
+}
+
+.heading1 span {
+    font-weight: 900;
+    color: #93e004;
+
+}
+
+.card{
+    background: #fff;
+    padding: 20px;
+    margin: 20px calc(25% - 300px);
+    border-radius: 10px;
+    box-shadow: 0 3px 15px #0000001a;
+    transition: .3s ease;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 600px;
+    height: 300px;
+    cursor: pointer;
+    float: left;
+}  
+
+.card h2{
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
